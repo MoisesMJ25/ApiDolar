@@ -27,3 +27,4 @@ class ApiData:
         except Exception as e:
             logging.error(f"Data not found\n{e}")
             raise
+
