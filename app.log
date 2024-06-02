@@ -1,0 +1,51 @@
+2024-06-02 18:07:17,819 ::GetDataModule-> root - ERROR - Not able to upload data
+type object 'ApiData' has no attribute 'get_data'
+2024-06-02 18:07:17,819 ::GetDataModule-> root - WARNING - No active connection to close.
+2024-06-02 18:10:07,751 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 18:10:07,781 ::GetDataModule-> root - ERROR - Not able to upload data
+No module named 'psycopg2'
+2024-06-02 18:10:07,782 ::GetDataModule-> root - WARNING - No active connection to close.
+2024-06-02 18:10:59,439 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 18:10:59,462 ::GetDataModule-> root - ERROR - Not able to upload data
+No module named 'psycopg2'
+2024-06-02 18:10:59,462 ::GetDataModule-> root - WARNING - No active connection to close.
+2024-06-02 18:11:24,921 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 18:11:28,410 ::GetDataModule-> root - INFO - Connection created
+2024-06-02 18:11:28,501 ::GetDataModule-> root - ERROR - Failed to upload data to moisesmarquinaj_coderhouse.api_dolar:
+'Engine' object has no attribute 'cursor'
+2024-06-02 18:11:28,502 ::GetDataModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-06-02 18:11:28,502 ::GetDataModule-> root - INFO - Connection to Redshift closed.
+2024-06-02 18:24:28,309 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 18:24:31,590 ::GetDataModule-> root - INFO - Connection created
+2024-06-02 18:24:48,575 ::GetDataModule-> root - INFO - Data from the DataFrame has been uploaded to the moisesmarquinaj_coderhouse.api_dolar table in Redshift.
+2024-06-02 18:24:48,575 ::GetDataModule-> root - INFO - Data uploaded to -> moisesmarquinaj_coderhouse.api_dolar
+2024-06-02 18:24:48,576 ::GetDataModule-> root - INFO - Connection to Redshift closed.
+2024-06-02 19:11:28,897 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 19:11:32,221 ::GetDataModule-> root - INFO - Connection created
+2024-06-02 19:11:34,488 ::GetDataModule-> root - INFO - Data from the DataFrame has been uploaded to the moisesmarquinaj_coderhouse.api_dolar table in Redshift.
+2024-06-02 19:11:34,489 ::GetDataModule-> root - INFO - Data uploaded to -> moisesmarquinaj_coderhouse.api_dolar
+2024-06-02 19:11:34,489 ::GetDataModule-> root - INFO - Connection to Redshift closed.
+2024-06-02 19:25:14,063 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 19:25:17,520 ::GetDataModule-> root - INFO - Connection created
+2024-06-02 19:25:22,751 ::GetDataModule-> root - INFO - Data from the DataFrame has been uploaded to the moisesmarquinaj_coderhouse.api_dolar table in Redshift.
+2024-06-02 19:25:22,751 ::GetDataModule-> root - INFO - Data uploaded to -> moisesmarquinaj_coderhouse.api_dolar
+2024-06-02 19:25:22,751 ::GetDataModule-> root - INFO - Connection to Redshift closed.
+2024-06-02 19:26:29,189 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 19:26:32,554 ::GetDataModule-> root - INFO - Connection created
+2024-06-02 19:26:36,553 ::GetDataModule-> root - ERROR - Failed to upload data to moisesmarquinaj_coderhouse.api_dolar:
+(psycopg2.errors.FeatureNotSupported) SQL command "CREATE INDEX ix_moisesmarquinaj_coderhouse_api_dolar_index ON moisesmarquinaj_coderhouse.api_dolar (index)" not supported on Redshift tables.
+
+[SQL: CREATE INDEX ix_moisesmarquinaj_coderhouse_api_dolar_index ON moisesmarquinaj_coderhouse.api_dolar (index)]
+(Background on this error at: https://sqlalche.me/e/14/tw8g)
+2024-06-02 19:26:36,554 ::GetDataModule-> root - ERROR - Not able to upload data
+(psycopg2.errors.FeatureNotSupported) SQL command "CREATE INDEX ix_moisesmarquinaj_coderhouse_api_dolar_index ON moisesmarquinaj_coderhouse.api_dolar (index)" not supported on Redshift tables.
+
+[SQL: CREATE INDEX ix_moisesmarquinaj_coderhouse_api_dolar_index ON moisesmarquinaj_coderhouse.api_dolar (index)]
+(Background on this error at: https://sqlalche.me/e/14/tw8g)
+2024-06-02 19:26:36,554 ::GetDataModule-> root - INFO - Connection to Redshift closed.
+2024-06-02 19:31:31,824 ::GetDataModule-> root - WARNING - Execute it before
+2024-06-02 19:31:34,872 ::GetDataModule-> root - INFO - Connection created
+2024-06-02 19:31:40,095 ::GetDataModule-> root - INFO - Data from the DataFrame has been uploaded to the moisesmarquinaj_coderhouse.api_dolar table in Redshift.
+2024-06-02 19:31:40,095 ::GetDataModule-> root - INFO - Data uploaded to -> moisesmarquinaj_coderhouse.api_dolar
+2024-06-02 19:31:40,095 ::GetDataModule-> root - INFO - Connection to Redshift closed.
